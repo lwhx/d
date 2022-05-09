@@ -10,9 +10,7 @@ import random
 
 
 '''
-cookies = "hiijack=0; gender=male; _csrfToken=6418ubZtOLxxDLsTogK1Qc9AdK155fG5MwaOwnb3; newstatisticUUID=1650367557_1624076577; fu=1595188882; _ga_FZMMH98S83=GS1.1.1650367593.1.0.1650367716.0; _ga_PFYW0QLV3P=GS1.1.1650367593.1.0.1650367716.0; se_ref=baidu; se_ref_bid=1026225232; dateTodayShowDR=1651145864237; isTodayClosed=0; dl-recordTime=1651146165240; COOKIE_BOOKLIST_TIPS=1; _ga=GA1.2.588309438.1650367558; _gid=GA1.2.2145999896.1651975697; _ga_D20NXNVDG2=GS1.1.1651975696.3.0.1651975709.0; _ga_VMQL7235X0=GS1.1.1651975696.3.0.1651975709.0; ywkey=ywSJqEwCMhwI; ywguid=2625719372; ywopenid=85B5E9DBA7ACBC350AF8D1FEA46C8ABB; e1=%7B%22pid%22%3A%22qd_P_my_experience%22%2C%22eid%22%3A%22qd_M17%22%2C%22l1%22%3A2%7D; e2=%7B%22pid%22%3A%22qd_P_my_experience%22%2C%22eid%22%3A%22%22%7D"
-
- 
+cookies = ""
 # cookie转字典
 def extract_cookies(cookies):
     global csrf
